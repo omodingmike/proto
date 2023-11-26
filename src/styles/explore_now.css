@@ -1,0 +1,10 @@
+/* Set white background for all text input */
+input[type="text"] {
+    background-color: white;
+}
+
+/* Modify focus outline for text input */
+input[type="text"]:focus {
+    outline-color: transparent; /* You can change the color as needed */
+    outline-width: 2px;   /* You can change the width as needed */
+}

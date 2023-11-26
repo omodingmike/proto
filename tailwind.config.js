@@ -36,7 +36,13 @@ export default {
                     "700": "#1d4ed8",
                     "800": "#1e40af",
                     "900": "#1e3a8a"
-                }
+                },
+                "footer": {
+                    "bg": "#E0E8F8",
+                },
+                "header": {
+                    "text": "#E69940",
+                },
             },
             fontFamily: {
                 'sans': ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
@@ -52,7 +58,8 @@ export default {
                 '1/2': '50%'
             },
         },
-    },
+    }
+    ,
     plugins: [
         require('flowbite/plugin')
     ]

@@ -5,14 +5,36 @@ import newZealand from '../assets/images/new_zealand.avif'
 import bora from '../assets/images/bora_bora.avif'
 import england from '../assets/images/england.avif'
 
-type Destination = {
+export type Destination = {
+    id?: number
     name: string,
     description: string,
-    image: string,
+    image: any,
     distance: string,
     duration: string,
     cost: string
 }
+
+export type DestinationResponse = {
+    status: number
+    message: string
+    data: Destination[]
+}
+export type SingleDestinationResponse = {
+    status: number
+    message: string
+    data: Destination
+}
+
+// export type DestinationResponse = {
+//     status: number
+//     message: string
+//     data: {
+//         id: number,
+//         name: string,
+//         destinations: Destination[]
+//     }[]
+// }
 export const destinations: Destination[] = [
     {
         name: "Singapore",

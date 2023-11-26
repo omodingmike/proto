@@ -1,12 +1,13 @@
 import {services} from "../data/services.ts";
 
 export default function Services() {
+
     return (
-        <div className={"grid grid-cols-1 md:grid-cols-4 gap-16"}>
+        <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-16 z-0"}>
             {
                 services.map((service, index) => (
                         <div key={index}
-                             className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12 drop-shadow-lg">
+                             className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-12 drop-shadow-lg" data-aos="zoom-in">
                             <svg className="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                  viewBox="0 0 20 20">
                                 <path
