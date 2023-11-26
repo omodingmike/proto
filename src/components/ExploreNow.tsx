@@ -43,7 +43,7 @@ export default function ExploreNow() {
                                 <BiSearch/>
                             </div>
                             <input type="text"
-                                   className="bg-white border border-white text-gray-900 text-sm rounded-lg focus:ring-white focus:border-white block  ps-10 p-2.5 me-5  dark:bg-white dark:border-white dark:placeholder-gray-400 dark:text-white dark:focus:ring-white dark:focus:border-white"
+                                   className="bg-white border border-white text-gray-900 text-sm rounded-lg focus:ring-white focus:border-white block  ps-10 p-2.5 me-5  dark:bg-white dark:border-white dark:placeholder-gray-400 dark:text-white dark:focus:ring-white dark:focus:border-white w-full md:w-[200px]"
                                    {...register("destination")}
                                    placeholder="Search your Location"/>
                             {
@@ -100,7 +100,7 @@ export default function ExploreNow() {
                                                     selected={field.value}
                                                     inputProps={{readOnly: true}}
                                                     onFocus={(e: any) => e.target.blur()}
-                                                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg  focus:ring-primary-600 focus:border-primary-600 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 w-full dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 "
+                                                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg  focus:ring-primary-600 focus:border-primary-600 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 md:w-[200px] w-full dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 "
                                                     timeIntervals={1}
                                                     style={{width: 300}}
                                                     scrollableYearDropdown={true}

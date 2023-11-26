@@ -26,10 +26,10 @@ export default function LoginModal() {
     const {register, handleSubmit, formState: {errors, isDirty, isValid, isSubmitting}} = useForm<User>({
         resolver: zodResolver(schema),
         mode: "all",
-        defaultValues: {
-            email: "admin@gmail.co",
-            password: "admin@gmail.com"
-        }
+        // defaultValues: {
+        //     email: "admin@gmail.com",
+        //     password: "admin@gmail.com"
+        // }
     })
 
     const submitHandler = (data: User) => {
@@ -58,15 +58,15 @@ export default function LoginModal() {
             <Modal show={modalOpen} size="md" onClose={() => {
                 dispatch(toggleLoginModal())
             }} popup>
-                <Modal.Header>
+                <Modal.Header className={"text-center"}>
                     Login
                 </Modal.Header>
                 <Modal.Body>
-                    <form className="p-4 md:p-5" onSubmit={handleSubmit(submitHandler)}>
+                    <form className="px-4 md:p-5" onSubmit={handleSubmit(submitHandler)}>
                         <div className="grid gap-4 mb-4 grid-cols-1">
                             <TextInput label={"Email"} placeholder={"example@gmail.com"} type={"email"} errors={errors} name={"email"} required={false}
                                        register={register}/>
-                            <TextInput label={"Password"} placeholder={""} type={"text"} errors={errors} name={"password"} required={false}
+                            <TextInput label={"Password"} placeholder={""} type={"password"} errors={errors} name={"password"} required={false}
                                        register={register}/>
                         </div>
                         {
