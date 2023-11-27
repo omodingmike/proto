@@ -13,3 +13,5 @@ Frontend is developed using ReactJS and Redux. It is a single page application. 
 # To Login
 - email: admin@gmail.com
 - password: admin@gmail.com
+# Crud Operations 
+- Login to have access to the crud operations.
