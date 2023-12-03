@@ -1,4 +1,4 @@
-import client from '../assets/images/client.avif'
+import client from '../assets/images/client.webp'
 
 type Client = {
     message: string,

@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import headerImage from "../assets/images/new_destination.png"
+import headerImage from "../assets/images/new_destination.webp"
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {z} from "zod";
@@ -27,7 +27,7 @@ export default function NewDestination() {
         'image/tiff',
         'image/webp',
         'image/svg+xml',
-        'image/avif',];
+        'image/webp',];
     const schema = z.object({
         name: z.string().min(1, {message: "Name is required"}),
         description: z.string().min(1, {message: "Description is required"}),

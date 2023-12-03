@@ -1,6 +1,6 @@
-import england from '../assets/images/england.avif'
-import newTravel from '../assets/images/new_travel.avif'
-import femaleTraveller from '../assets/images/female_traveller.avif'
+import england from '../assets/images/england.webp'
+import newTravel from '../assets/images/new_travel.webp'
+import femaleTraveller from '../assets/images/female_traveller.webp'
 
 export default function Blogs() {
     return (

@@ -1,9 +1,9 @@
-import singapore from '../assets/images/singapore.avif'
-import thailand from '../assets/images/thailand.avif'
-import paris from '../assets/images/paris.avif'
-import newZealand from '../assets/images/new_zealand.avif'
-import bora from '../assets/images/bora_bora.avif'
-import england from '../assets/images/england.avif'
+import singapore from '../assets/images/singapore.webp'
+import thailand from '../assets/images/thailand.webp'
+import paris from '../assets/images/paris.webp'
+import newZealand from '../assets/images/new_zealand.webp'
+import bora from '../assets/images/bora_bora.webp'
+import england from '../assets/images/england.webp'
 
 export type Destination = {
     id?: number
