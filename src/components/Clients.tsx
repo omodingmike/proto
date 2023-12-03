@@ -19,7 +19,7 @@ export default function Clients() {
                                         <h5 className="ms-2 tracking-tight text-gray-900 dark:text-white text-start mt-3">{client.message}</h5>
                                         <div className={"flex mt-5"}>
                                             <div className={"w-16 h-16"}>
-                                                <img className={"rounded-full object-cover w-full h-full"} src={client.photo} alt="client"/>
+                                                <img loading={"lazy"} className={"rounded-full object-cover w-full h-full"} src={client.photo} alt="client"/>
                                             </div>
                                             <div className={"ms-5 pt-2 pb-2"}>
                                                 <p className="text-gray-500 dark:text-gray-400 font-bold text-start">{client.name}</p>
