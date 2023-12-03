@@ -9,7 +9,7 @@ export default function MyCarousel() {
             {
                 !isSuccess ? (
                     // <img className={"h-full w-full object-cover"} src={england} alt=""/>
-                    <div className={"w-full h-[500px] relative"}>
+                    <div className={"w-full h-56 sm:h-[500px] relative"}>
                         <img className="object-cover h-full w-full" src={england}
                              alt="image description" loading={"lazy"}/>
                         <div className="absolute inset-0 bg-black opacity-40"></div>
