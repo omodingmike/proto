@@ -10,7 +10,7 @@ export default function MyCarousel() {
                     destinations?.data.slice(0, 4).map((destination) => (
                         <div className={"w-full h-[600px] relative"} key={destination.id}>
                             <img className="object-cover h-full w-full" src={destination.image}
-                                 alt="image description"/>
+                                 alt="image description" loading={"lazy"}/>
                             <div className="absolute inset-0 bg-black opacity-40"></div>
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <div>
