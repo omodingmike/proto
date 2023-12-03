@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import 'flowbite/dist/flowbite.min.js';
+// import 'flowbite/dist/flowbite.min.js';
 import 'flowbite';
 import {BrowserRouter} from "react-router-dom";
 import {ApiProvider} from "@reduxjs/toolkit/dist/query/react";
