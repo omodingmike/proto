@@ -5,8 +5,8 @@ import {DestinationCategory, DestinationCategoryResponse} from "../../../compone
 import {User, UserResponse} from "../userSlice.ts";
 import {SerializedError} from "@reduxjs/toolkit";
 
-// const baseUrl = "http://proto.test/api/"
-const baseUrl = "https://proto-backend.omoding.com/api/"
+const baseUrl = "http://proto.test/api/"
+// const baseUrl = "https://proto-backend.omoding.com/api/"
 // @ts-ignore
 // @ts-ignore
 // @ts-ignore

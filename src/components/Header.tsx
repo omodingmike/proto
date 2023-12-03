@@ -4,7 +4,7 @@ import SignupModal from "./SignupModal.tsx";
 import {useAppDispatch, useAppSelector} from "../redux/store.ts";
 import {toggleLoginModal} from "../redux/features/appSlice.ts";
 import {setLogOut} from "../redux/features/userSlice.ts";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 import {Link} from "react-router-dom";
 
 const Header = () => {

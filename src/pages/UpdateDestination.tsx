@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import headerImage from "../assets/images/new_destination.png"
+import headerImage from "../assets/images/new_destination.webp"
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {z} from "zod";

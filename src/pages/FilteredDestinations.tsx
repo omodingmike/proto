@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import headerImage from "../assets/images/new_destination.png"
+import headerImage from "../assets/images/new_destination.webp"
 import {useFilteredDestinationsQuery} from "../redux/features/api/apiSlice.ts";
 import {Link, useParams} from "react-router-dom";
 import {AiOutlineApartment} from "react-icons/ai";
@@ -38,7 +38,7 @@ export default function FilteredDestinations() {
                     isSuccess && categoryDestinations.data.map((destination, index) => (
                         <div key={index} className="max-w-sm  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <div className={"h-64 flex justify-center items-center"}>
-                                <img className="rounded-t-lg object-cover h-full w-full" src={destination.image} alt=""/>
+                                <img className="rounded-t-lg object-cover" src={destination.image} alt=""/>
                             </div>
                             <div className="p-5">
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{destination.name}</h5>
