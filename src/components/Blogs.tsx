@@ -8,7 +8,7 @@ export default function Blogs() {
             <h2 className="text-4xl font-bold dark:text-white mt-8 mb-8 sm:mb-16 sm:mt-36 text-center" data-aos="zoom-in">Blogs</h2>
             <div className={"sm:grid sm:grid-cols-2 sm:gap-8"}>
                 <div className={"w-full h-[300px] sm:h-[600px] relative mb-8 sm:mb-0"} data-aos="fade-left">
-                    <img className="object-cover h-full w-full" src={england} alt="image description"/>
+                    <img loading={"lazy"} className="object-cover h-full w-full" src={england} alt="image description"/>
                     <div className="absolute inset-0 bg-black opacity-40 rounded-lg"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
                         <div>
